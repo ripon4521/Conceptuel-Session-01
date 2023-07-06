@@ -1,0 +1,205 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 200px;
+    margin-right: 1000px;
+    cursor: pointer;
+}
+span{
+    font-size: 70px;
+    color: rgba(202, 173, 9, 0.829);
+}
+.menu-container{
+    /* background-color: rgb(78, 73, 73); */
+    padding: 20px;
+    color: rgb(22, 22, 22);
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.meanus{
+    display: flex;
+    cursor: pointer;
+    
+}
+.meanus li{
+    margin-left: 70px;
+    font-size: 20px;
+
+}
+.meanus li:hover{
+    color: aqua;
+}
+/* navbar section end  */
+
+.banner-img{
+    width: 800px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* background-image: url("./images/header-bg.png"); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    
+    
+    
+}
+.banner-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.banner-text h1{
+    font-size: 60px;
+}
+.banner-text p{
+    font-size: 25px;
+    color: dimgray;
+}
+button{
+    border: none;
+    font-size: 30px;
+    margin-top: 10px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+
+/* about us section */
+.about-photo img{
+    width: 400px;
+    margin-left: 200px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* background-image: url("./images/biography-bg.png"); */
+    
+
+    
+    /* margin-top: 100px; */
+}
+.about-title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.about-info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.about-info h1{
+    font-size: 30px;
+}
+.about-info p{
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* latest work start  */
+
+.box img{
+    width: 480px;
+    /* margin-top: 100px; */
+    /* height: 300px; */
+}
+.service-container{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 400px;
+    /* align-items: center; */
+    margin-top: 200px;
+    background: white;
+    gap: 60px;
+    background-image: url("./images/latest-work-bg.png");
+    background-size: cover;
+}
+.box{
+    /* box-shadow: 2px 2px 2px 2px; */
+    /* border: 5px; */
+   padding: 20px; 
+   box-sizing: border-box;
+   box-shadow: 5px 5px 5px 5px;
+}
+
+/* section end  */
+.box1{
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    /* background-color: black; */
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+.box1 img{
+    width: 100px;
+    color: #f2f2f2;
+}
+.box1 h2{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dimgray;
+    padding: 5px;
+}
+.our-services-container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+/* section end  */
+
+.first-div img{
+    width: 200px;
+}
+.first-div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second-div{
+    list-style: none;
+}
+.second-div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second-div li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+.footer-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 200px;
+    background-image: url("./images/footer-bg.png");
+}
+hr{
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.copy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
