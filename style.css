@@ -5,15 +5,15 @@
 }
 .logo img{
     width: 200px;
-    margin-right: 1000px;
+    margin-right: 800px;
     cursor: pointer;
 }
 span{
-    font-size: 70px;
+    font-size: 60px;
     color: rgba(202, 173, 9, 0.829);
 }
 .menu-container{
-    /* background-color: rgb(78, 73, 73); */
+   
     padding: 20px;
     color: rgb(22, 22, 22);
     list-style: none;
@@ -38,17 +38,17 @@ span{
 /* navbar section end  */
 
 .banner-img{
-    width: 800px;
+    width: 600px;
 }
 .banner-container{
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    /* background-image: url("./images/header-bg.png"); */
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
+    
+   
+    
+  
     
     
     
@@ -58,15 +58,15 @@ span{
     
 }
 .banner-text h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 .banner-text p{
-    font-size: 25px;
+    font-size: 20px;
     color: dimgray;
 }
 button{
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
     background-image: linear-gradient(45deg,lightsalmon, tomato);
     border-radius: 5px;
@@ -85,11 +85,11 @@ button{
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
-    /* background-image: url("./images/biography-bg.png"); */
+    
     
 
     
-    /* margin-top: 100px; */
+    
 }
 .about-title {
     text-align: center;
@@ -113,24 +113,20 @@ button{
 
 .box img{
     width: 480px;
-    /* margin-top: 100px; */
-    /* height: 300px; */
+    
 }
 .service-container{
     display: flex;
-    /* justify-content: space-between; */
-    margin-left: 400px;
-    /* align-items: center; */
+    
+    margin-left: 200px;
+    
     margin-top: 150px;
-    /* background: white; */
+    
     gap: 60px;
-    /* background-image: url("./images/latest-work-bg.png"); */
-    /* background-size: cover; */
+    
 }
 .box{
-    /* box-shadow: 2px 2px 2px 2px; */
-    /* border: 5px; */
-   /* padding: 20px;  */
+    
    box-sizing: border-box;
    box-shadow: 5px 5px 5px 5px;
 }
@@ -140,7 +136,7 @@ button{
     width: 300px;
     height: 300px;
     box-shadow: 4px 4px 15px gray;
-    /* background-color: black; */
+    
     text-align: center;
     padding: 15px;
     color: black;
