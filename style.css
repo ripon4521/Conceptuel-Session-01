@@ -118,19 +118,19 @@ button{
 }
 .service-container{
     display: flex;
-    /* justify-content: space-around; */
-    margin-left: 320px;
+    /* justify-content: space-between; */
+    margin-left: 400px;
     /* align-items: center; */
-    margin-top: 200px;
-    background: white;
+    margin-top: 150px;
+    /* background: white; */
     gap: 60px;
-    background-image: url("./images/latest-work-bg.png");
-    background-size: cover;
+    /* background-image: url("./images/latest-work-bg.png"); */
+    /* background-size: cover; */
 }
 .box{
     /* box-shadow: 2px 2px 2px 2px; */
     /* border: 5px; */
-   padding: 20px; 
+   /* padding: 20px;  */
    box-sizing: border-box;
    box-shadow: 5px 5px 5px 5px;
 }
